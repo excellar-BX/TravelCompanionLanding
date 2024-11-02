@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.66f04b41.css",
+    "main.js": "/static/js/main.3a3e4606.js",
+    "static/js/453.d4de3d89.chunk.js": "/static/js/453.d4de3d89.chunk.js",
+    "static/media/sunset.mp4": "/static/media/sunset.955adb86ea4ccf9021bb.mp4",
+    "static/media/original-png": "/static/media/original-c0a3d9c59754288c3a396c68a1c98c02.1e68b9370ac05cabab5b.png",
+    "static/media/map1.png": "/static/media/map1.8121d06aaebe12fb3f11.png",
+    "static/media/hero2.png": "/static/media/hero2.ed8b9bbfb26ca0373be0.png",
+    "static/media/niagara.png": "/static/media/niagara.d1e25e106ee812e2be76.png",
+    "static/media/map3.png": "/static/media/map3.b06f07db9c192d055ce4.png",
+    "static/media/Poppins-Regular.ttf": "/static/media/Poppins-Regular.3c813f59f8b9c1566f24.ttf",
+    "static/media/map2.png": "/static/media/map2.96f99c7f81cd3e22daa8.png",
+    "static/media/map4.png": "/static/media/map4.4e63475e61c0ffbd54c5.png",
+    "static/media/night.png": "/static/media/night.dc57774ccdad987b4ed2.png",
+    "static/media/mountain.png": "/static/media/mountain.6f4c6aca25d2eec52804.png",
+    "static/media/hero3.png": "/static/media/hero3.a773f86a9185b6d06771.png",
+    "static/media/hero1.png": "/static/media/hero1.643e4d9600e7840d8976.png",
+    "static/media/acropolis.png": "/static/media/acropolis.b0207fb9d8562a802d13.png",
+    "static/media/colosseum.png": "/static/media/colosseum.2418c6cf6b667b899bfb.png",
+    "static/media/clothes.png": "/static/media/clothes.1c55d5fe20ed43bb69e4.png",
+    "static/media/eating.png": "/static/media/eating.c50f92d7f2e1d1f78d2e.png",
+    "static/media/bana_hills.png": "/static/media/bana_hills.35213eaeff7539527f87.png",
+    "static/media/dubrovnik.png": "/static/media/dubrovnik.4365c7b0b4b4f52e6229.png",
+    "static/media/eiffel.png": "/static/media/eiffel.d82f98613d7c662d164e.png",
+    "static/media/beach.png": "/static/media/beach.a1f56a9b1e6712dd1766.png",
+    "static/media/travel.png": "/static/media/travel.fac1c32915aa26ea6577.png",
+    "static/media/habour.png": "/static/media/habour.d91f5088299e4a2b47fe.png",
+    "static/media/profile.png": "/static/media/profile.53daa21b76639fbd6057.png",
+    "static/media/hot_air_balloon.png": "/static/media/hot_air_balloon.bc4e7154cf4173ba0090.png",
+    "index.html": "/index.html",
+    "main.66f04b41.css.map": "/static/css/main.66f04b41.css.map",
+    "main.3a3e4606.js.map": "/static/js/main.3a3e4606.js.map",
+    "453.d4de3d89.chunk.js.map": "/static/js/453.d4de3d89.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66f04b41.css",
+    "static/js/main.3a3e4606.js"
+  ]
+}
