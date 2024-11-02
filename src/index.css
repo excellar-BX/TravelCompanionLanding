@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+@layer base {
+  @font-face {
+    font-family: "Poppins";
+    src: url(./Fonts/Poppins-Regular.ttf)
+  }
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+.destinations-cards{
+  scrollbar-width: thin;
+  scrollbar-color: #805053;
+}
