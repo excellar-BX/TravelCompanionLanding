@@ -1,4 +1,4 @@
-# TravelCompanionlanding
+# TravelCompanion Landing
 
 # Getting Started with Create React App
 
