@@ -15,8 +15,7 @@ import { a } from "react-router-dom";
 const Footer = () => {
   return (
     <div
-      className=" grid grid-row-5 gap-y-5 sm:text-left text-center sm:grid-cols-5
-     lg:mx-40 mx-5 pb-20 "
+      className=" grid justify-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-y-5 sm:text-left text-center lg:mx-20 mx-5 pb-20 "
     >
       <div>
         <div className="flex flex-row mb-6 ">

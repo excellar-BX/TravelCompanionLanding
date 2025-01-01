@@ -3,22 +3,22 @@ import { BiDotsHorizontal } from "react-icons/bi";
 
 const LatestStories = () => {
   return (
-    <div className="lg:mx-40 pb-20 " id="blog" >
+    <div className="xl:mx-auto lg-20 mx-3  max-w-[1500px] sm:mx-10 pb-20 my-10 relative " id="blog" >
       <div className="" >
         <span className=" text-4xl tracking-wider font-bold ">
           Latest Stories
         </span>
 
-        <div className="more-articles-btn border-2 inline-flex sm:float-end px-6 my-4 sm:mb-0 py-2 rounded-full ">
+        <div className="more-articles-btn absolute bottom-2 h-fit sm:top-0 border-2 right-16 sm:right-0 px-6 sm:my-4 sm:mb-0 py-2 rounded-full ">
           Read More Articles
         </div>
       </div>
-      <div className="stories flex flex-col sm:flex-row w-full gap-5 sm:gap-20  sm:my-10 ">
-        <div className="sm:w-[60%] ">
+      <div className="stories flex flex-col lg:flex-row w-full gap-5 sm:gap-20  sm:my-10 ">
+        <div className="lg:w-[60%] w-full ">
           <div>
             <img
               src={require("../assets/eating.png")}
-              className="object-cover rounded-3xl w-full h-72 sm:h-96  "
+              className="object-cover rounded-3xl my-5 w-full sm:h-96  "
               alt=""
             />
           </div>
@@ -43,11 +43,11 @@ const LatestStories = () => {
           </div>
         </div>
         <div className=" flex flex-col sm:gap-10 ">
-          <div className="flex gap-4 items-center sm:items-start sm:gap-10 ">
-            <div>
+          <div className="flex sm:flex-row flex-col my-4 gap-4 items-start sm:items-start sm:gap-10 ">
+            <div className=' ' >
               <img
                 src={require("../assets/clothes.png")}
-                className="sm:w-60 w-72 object-cover h-28  sm:h-40 rounded-3xl "
+                className="sm:w-60 w-full h-fit object-cover  sm:h-40 rounded-3xl "
                 alt=""
               />
             </div>
@@ -65,11 +65,11 @@ const LatestStories = () => {
               </div>
             </div>
           </div>{" "}
-          <div className="flex gap-4 items-center sm:items-start sm:gap-10 ">
+          <div className="flex sm:flex-row flex-col my-4 gap-4 items-center sm:items-start sm:gap-10 ">
             <div>
               <img
                 src={require("../assets/beach.png")}
-                className="sm:w-60 w-72 object-cover h-28  sm:h-40 rounded-3xl "
+                className="sm:w-60 w-full h-fit object-cover  sm:h-40 rounded-3xl"
                 alt=""
               />
             </div>
@@ -87,11 +87,11 @@ const LatestStories = () => {
               </div>
             </div>
           </div>{" "}
-          <div className="flex gap-4 items-center sm:items-start sm:gap-10 ">
+          <div className="flex sm:flex-row flex-col my-4 gap-4 items-center sm:items-start sm:gap-10 ">
             <div>
               <img
                 src={require("../assets/night.png")}
-                className="sm:w-60 w-72 object-cover h-28  sm:h-40 rounded-3xl "
+                className="sm:w-60 w-full h-fit object-cover  sm:h-40 rounded-3xl "
                 alt=""
               />
             </div>

@@ -37,10 +37,10 @@ const TopDestinations = () => {
         );
 
   return (
-    <div className="lg:mx-40 pb-20  " id="destination" >
+    <div className="lg:mx-20 mx-3 sm:mx-10 pb-20  " id="destination" >
       <span className="text-4xl font-bold ">Top Destinations</span>
       <div
-        className={`destinations h-28 justify-around items-center ${
+        className={`destinations md:h-28 justify-around items-center ${
           navOpen ? "items-start" : "items-center"
         } my-8 flex `}
       >
@@ -49,7 +49,7 @@ const TopDestinations = () => {
           <span
             key={index}
             onClick={() => setSelectedCategory(data)}
-            className={` sm:block hidden cursor-pointer ${
+            className={` md:block hidden sm:flex-none flex-1 cursor-pointer ${
               selectedCategory === data && "font-bold"
             } `}
           >
@@ -60,7 +60,7 @@ const TopDestinations = () => {
           <span
             key={index}
             onClick={() => setSelectedCategory(data)}
-            className={`block sm:hidden cursor-pointer ${
+            className={`block md:hidden sm:flex-none flex-1 cursor-pointer ${
               selectedCategory === data && "font-bold"
             } `}
           >
@@ -83,7 +83,7 @@ const TopDestinations = () => {
               onClick={() => {
                 setNavOpen(true);
               }}
-              className="cursor-pointer items-center sm:flex hidden gap-x-2 "
+              className="cursor-pointer items-center md:flex hidden gap-x-2 "
             >
               More
               <BiCaretDown />
@@ -98,7 +98,7 @@ const TopDestinations = () => {
               {destinations.slice(7).map((data, index) => (
                 <span
                   key={index}
-                  className=" flex-col w-32 my-0.5 sm:flex hidden hover:border-l-au-chico-800 justify-center hover:border-l-4 h-8 px-5 "
+                  className=" flex-col w-32 my-0.5 md:flex hidden hover:border-l-au-chico-800 justify-center hover:border-l-4 h-8 px-5 "
                 >
                   {data}
                 </span>
@@ -108,7 +108,7 @@ const TopDestinations = () => {
               {destinations.slice(2).map((data, index) => (
                 <span
                   key={index}
-                  className="flex flex-col w-32 sm:hidden text-lg leading-6 my-3 justify-center hover:border-l-au-chico-800 hover:border-l-4 px-2 h-8 "
+                  className="flex flex-col w-32 md:hidden text-lg leading-6 my-3 justify-center hover:border-l-au-chico-800 hover:border-l-4 px-2 h-8 "
                 >
                   {data}
                 </span>
@@ -119,17 +119,17 @@ const TopDestinations = () => {
 
          
         </div>
-        <div className="more-destinations-btn border-2 px-6 py-2 rounded-full ">
+        <div className="more-destinations-btn text-sm sm:text-base border-2 px-2 sm:px-6 py-2 rounded-full ">
           Explore all destinations
         </div>
       </div>
       <div className="destinations-cards flex px-5 overflow-x-auto gap-10 ">
         { destinationsCardInfo.map((data, index) =>(
             <div>
-            <div className="w-60 " >
+            <div className="sm:w-60 w-52 " >
             <img
               src={require(`../assets/${data.image_name}.png`)}
-              className="w-full h-80 rounded-3xl object-cover "
+              className="w-full h-60 sm:h-80 rounded-3xl object-cover "
               alt=""
             />
             <div className="location font-semibold mt-2 text-lg ">{data.name}</div>
